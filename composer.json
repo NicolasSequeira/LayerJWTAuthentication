@@ -1,0 +1,19 @@
+{
+  "name": "JadoPado Layer",
+  "description": "JadoPado Layer",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "Vyshakh"
+    }
+  ],
+  "autoload": {
+    "psr-0": {
+        "Layer": "src/"
+    }
+  },
+  "require": {
+    "php": ">=5.4.0",
+    "namshi/jose": "6.0.*"
+  }
+}
